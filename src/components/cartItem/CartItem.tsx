@@ -24,7 +24,7 @@ export default function CartItem({ id, qty }: ICartItem) {
     });
   }, []);
   return (
-    <div className="flex mt-4 border-b pb-2 w-50 bg-slate-200">
+    <div className="flex mt-4 border-b pb-2 bg-slate-200">
       <Link to={`/product/${id}`}>
         <img src={product?.image} />
       </Link>

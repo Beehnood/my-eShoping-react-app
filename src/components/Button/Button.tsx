@@ -17,11 +17,11 @@ export default function Button({ children, variant, style , ...rest }: TButton) 
 
 function checkVariant(variant?: TVariant) {
   if (variant === "primary") {
-    return { backgroundColor: "blue", color: "white" };
+    return { backgroundColor: "#004bfb", color: "white" };
   } else if (variant === "secondary") {
     return { backgroundColor: "gray", color: "black" };
   } else if (variant === "danger") {
-    return { backgroundColor: "red", color: "white" };
+    return { backgroundColor: "#cd0101", color: "white" };
   } else if (variant === "success") {
     return { backgroundColor: "green", color: "white" };
   } else if (variant === "warning") {

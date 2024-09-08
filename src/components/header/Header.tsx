@@ -24,7 +24,7 @@ function Header() {
             <ShoppingBagIcon className="h-6 w-6 text-whit" >
             </ShoppingBagIcon>
             <div className="flex bg-red-600 rounded-full px-1 text-sm items-center w-50">
-            <span >{cartQty}</span>
+            <span >{cartQty !== 0 ? cartQty : ""}</span>
             </div>
             </button>
           </Link>
